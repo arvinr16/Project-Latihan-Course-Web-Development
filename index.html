@@ -62,8 +62,8 @@
      <!-- Image =  Untuk menampilkan gambar pada halaman web. Tag ini bersifat self-closing, artinya tidak memerlukan tag penutup. -->
      <!-- <img src="Screenshot 2025-01-07 205405.png" alt="Ini adalah gambar gunung"> -->
 
-     <!-- Table -->
-     <table border="10">
+     <!-- Table = digunakan untuk menyusun data dalam format baris dan kolom. -->
+     <table border="10"> <!-- dalam pembuatan website ditahun 2000an sering menggunakan tag <table> dalam websitenya -->
          <thead> <!-- thead = untuk melambangkan bagian kepala pada sebuah table
                       Mempermudah pemahaman struktur tabel dan berguna dalam aksesibilitas serta styling dengan CSS. -->
             <tr>
@@ -75,12 +75,11 @@
          <tbody> <!-- Digunakan untuk mengelompokkan isi atau data utama tabel 
                       Fungsi utama: Menampung data tabel, mempermudah manipulasi dengan JavaScript, dan memisahkan data dari header atau footer. -->
             <tr> <!-- tr = table row -->
-               <td>1</td> <!-- td = table data -->
-               <td>Paijo</td>
+               <td rowspan="2">1</td> <!-- rowspan = digunakan untuk menggabungkan beberapa baris (rows) menjadi satu dalam tabel HTML.-->
+               <td>Paijo</td> <!-- td = table data -->
                <td>Umur</td>
             </tr>
             <tr>
-               <td>2</td>
                <td>Dalijo</td>
                <td>21</td>
             </tr>
@@ -94,5 +93,11 @@
          </tfoot>
      </table>
 
+     <!-- Form -->
+     <form action="">
+         <input type="text">
+     </form>
+
+     
 </body>
 </html>

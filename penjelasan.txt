@@ -1,1 +1,3 @@
 Ini adalah project saya tentang Pembelajaran mengenai Web Development di Corse Online.
+Di dalam project ini berisi penjelasan juga yang saya pelajari dalam Course Online yang saya jalani ini, jadi jika teman-teman ingin melihat juga source code nya
+ada penjelasan juga dalam source code tersebut, jadi tidak membuat teman-teman bingung. Terimakasih

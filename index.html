@@ -33,7 +33,7 @@
     <!-- List Tag list digunakan untuk membuat daftar dalam HTML. Ada tiga jenis daftar utama -->
     <!-- 1. Ordered List = Daftar yang memiliki urutan (nomor) -->
      <ol type="I">
-        <li>Murid 1</li>
+        <li>Murid 1</li> <!-- <li> = list item -->
         <li>Murid 2</li>
         <li>Murid 3</li>
         <li>Murid 4</li>
@@ -73,7 +73,8 @@
             </tr>
          </thead>
          <tbody> <!-- Digunakan untuk mengelompokkan isi atau data utama tabel 
-                      Fungsi utama: Menampung data tabel, mempermudah manipulasi dengan JavaScript, dan memisahkan data dari header atau footer. -->
+                      Fungsi utama: Menampung data tabel, mempermudah manipulasi dengan JavaScript, 
+                      dan memisahkan data dari header atau footer. -->
             <tr> <!-- tr = table row -->
                <td rowspan="2">1</td> <!-- rowspan = digunakan untuk menggabungkan beberapa baris (rows) menjadi satu dalam tabel HTML.-->
                <td>Paijo</td> <!-- td = table data -->
@@ -93,11 +94,20 @@
          </tfoot>
      </table>
 
-     <!-- Form -->
+     <!-- Form = digunakan untuk membuat formulir HTML yang dapat mengumpulkan data dari pengguna. 
+                 Formulir ini biasanya dikirim ke server untuk diproses.-->
      <form action="">
-         <input type="text">
+         <label for="name">Name :</label> <!-- digunakan untuk memberikan label pada elemen input. 
+                                               Ini membantu aksesibilitas dan meningkatkan pengalaman pengguna. -->
+         <input type="text" id="name"> <!-- digunakan untuk membuat elemen input dalam formulir. -->
+         <label for="email">Email :</label>
+         <input type="email" id="email">
+         <button type="submit">Submit</button>
      </form>
-
+     
+     <!-- Atribut "id" = Atribut id dalam HTML digunakan untuk memberikan identitas unik pada suatu elemen. 
+          Setiap elemen dalam halaman web hanya boleh memiliki satu id yang unik, 
+          dan satu id tidak boleh digunakan lebih dari sekali dalam satu halaman. -->
      
 </body>
 </html>

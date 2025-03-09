@@ -1,4 +1,4 @@
 Ini adalah project saya tentang Pembelajaran mengenai Web Development di Corse Online.
 Di dalam project ini berisi penjelasan juga yang saya pelajari dalam Course Online yang saya jalani ini, jadi jika teman-teman ingin melihat juga source code nya
 ada penjelasan juga dalam source code tersebut, jadi tidak membuat teman-teman bingung.
-Jadi dalam project ini sebenarnya belum selesai, maka dari itu repository ini akan di Update secara berkala, Terimakasih :)
+Jadi dalam project ini sebenarnya belum selesai, maka dari itu repository ini akan di Update secara berkala, mari kita tunggu bersama-sama dengan Update an terbarunya, Terimakasih :)

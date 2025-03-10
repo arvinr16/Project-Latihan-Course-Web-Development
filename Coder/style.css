@@ -1,0 +1,15 @@
+* { /* = (*) disebut universal selector (selektor universal). 
+       Fungsinya adalah untuk memilih semua elemen dalam dokumen HTML, 
+       sehingga aturan CSS yang diterapkan akan berlaku untuk semua elemen di halaman. */
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-weight: 590;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -13,3 +13,23 @@ a {
     text-decoration: none;
     color: black;
 }
+
+p {
+    color: #979797;
+}
+
+
+.btn { /* Dalam CSS, tanda titik (.) digunakan untuk memanggil class yang telah didefinisikan di dalam HTML. 
+          Class memungkinkan Anda menerapkan gaya tertentu ke satu atau lebih elemen tanpa mempengaruhi elemen lainnya. 
+          Catatan Tambahan
+          - Satu elemen bisa memiliki banyak class dengan memisahkan nama class menggunakan spasi 
+          - Memanggil lebih dari satu class dalam satu selector
+            Anda bisa menargetkan beberapa class sekaligus dalam satu aturan CSS*/
+    background-color: rgb(66, 125, 234);
+    color: white;
+}
+
+.btn-alt {
+    background-color: white;
+    color: black;
+}

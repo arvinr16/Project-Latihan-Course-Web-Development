@@ -6,6 +6,7 @@
 
 h1 {
     font-weight: 590;
+    margin-top: 0 0 16px 0;
     
 }
 
@@ -16,6 +17,7 @@ a {
 
 p {
     color: #979797;
+    margin: 0 0 16px 0;
 }
 
 
@@ -27,9 +29,17 @@ p {
             Anda bisa menargetkan beberapa class sekaligus dalam satu aturan CSS*/
     background-color: rgb(66, 125, 234);
     color: white;
+    padding: 10px 20px; /* Padding adalah ruang di dalam elemen, antara konten dan border. 
+                           Efeknya: Konten akan memiliki jarak dari batas dalam elemen, 
+                           tapi ukuran total elemen akan bertambah jika box-sizing: content-box; digunakan. */
 }
 
 .btn-alt {
     background-color: white;
     color: black;
+    margin-right: 10px; /* Margin adalah ruang di luar elemen, digunakan untuk memberi jarak antar elemen lain. 
+                           Efeknya: Elemen akan menjauh dari elemen lain tanpa mempengaruhi ukuran elemen itu sendiri. */
+
+    border: 2px solid rgb(66, 125, 234); /* Border adalah garis yang mengelilingi elemen, berada di antara padding dan margin. 
+                                              Efeknya: Elemen akan memiliki garis tepi dengan ketebalan dan warna tertentu. */
 }

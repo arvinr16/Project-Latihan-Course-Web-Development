@@ -43,3 +43,44 @@ p {
     border: 2px solid rgb(66, 125, 234); /* Border adalah garis yang mengelilingi elemen, berada di antara padding dan margin. 
                                               Efeknya: Elemen akan memiliki garis tepi dengan ketebalan dan warna tertentu. */
 }
+
+.landing p {
+    margin-bottom: 25px;
+}
+
+nav > a {
+    color: rgb(66, 125, 234);
+    margin-left: 10px;
+}
+
+/* Combinatior CSS
+   1. ~ Descendant combinator digunakan untuk memilih elemen yang berada di dalam elemen lain, tanpa memperhatikan level kedalamannya.
+   div p {
+  color: blue;
+}
+   Semua <p> yang berada di dalam <div>, baik langsung maupun dalam elemen lain yang bersarang, akan dipilih.
+   Tidak peduli apakah <p> adalah anak langsung dari <div> atau berada dalam elemen lain di dalam <div>.
+   <div>
+   <p>Ini akan berwarna biru.</p>
+   <section>
+   <p>Ini juga akan berwarna biru.</p>
+   </section>
+   </div>
+
+   2. ~ Child combinator digunakan untuk memilih elemen yang hanya merupakan anak langsung dari elemen tertentu.
+   div > p {
+  color: red;
+}
+   Hanya <p> yang merupakan anak langsung dari <div> yang akan dipilih.
+   Jika <p> berada dalam elemen lain di dalam <div>, maka tidak akan dipilih.
+   <div>
+   <p>Ini akan berwarna merah.</p>
+   <section>
+   <p>Ini tidak akan berubah warna.</p>
+   </section>
+   </div>
+
+   Kesimpulan :
+   Gunakan descendant combinator jika ingin menargetkan semua elemen dalam sebuah elemen induk, tidak peduli seberapa dalam mereka berada.
+   Gunakan child combinator jika ingin menargetkan hanya anak langsung dari elemen induk. */
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title> 
+    <style>
+        /* div {
+            color: rgb(66, 125, 234);
+            background-color: yellow;
+            display: inline;
+        } */
+        section {
+            border: 1px solid black;
+            height: 600px;
+            width: 600px;
+            /* display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly; justify-content = Mengatur posisi elemen secara horizontal (dari kiri ke kanan) di dalam kontainer flex atau grid. */
+            /* align-items: center; align-items =  Mengatur posisi elemen secara vertikal (dari atas ke bawah) dalam kontainer flex atau grid. */
+            display: grid;
+            grid-template-columns:                 /* Digunakan untuk menentukan jumlah dan ukuran kolom dalam grid. */
+                                  repeat(2, 1fr);  /* Fungsi repeat() digunakan untuk mendeklarasikan pola ukuran kolom atau baris berulang tanpa perlu menulisnya secara manual. */
+            grid-template-rows: 1fr 3fr 2fr;           /* Digunakan untuk menentukan jumlah dan ukuran baris dalam grid. */
+            grid-template-areas: 
+            "satu dua"
+            "tiga tiga"
+            "empat lima";
+        }
+
+        div {
+            /* height: 100px;
+            width: 100px; */
+            background-color: yellow;
+            border: 1px solid black;
+        }
+
+        #satu {
+            grid-area: satu;
+        }
+
+        #dua {
+            grid-area: dua;
+        }
+
+        #tiga {
+            grid-area: tiga;
+        }
+
+        #empat {
+            grid-area: empat;
+        }
+
+        #lima {
+            grid-area: lima;
+        }
+
+    </style>
+  </head>
+  <body>
+    <section>
+        <div id="satu">1</div>
+        <div id="dua">2</div>
+        <div id="tiga">3</div>
+        <div id="empat">4</div>
+        <div id="lima">5</div>
+    </section>
+    <!-- <section>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <div>Display</div> ducimus
+      nesciunt voluptate esse, iste nulla sunt, explicabo eius doloribus porro
+      impedit cupiditate natus dolore unde animi qui ipsam deleniti quae.
+    </section> -->
+  </body>
+</html>

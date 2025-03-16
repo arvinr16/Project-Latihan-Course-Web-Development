@@ -6,11 +6,15 @@
 
 h1 {
     font-weight: 590;
+    font-size: 48px;
     margin-top: 0 0 16px 0;
     
 }
 
 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
     text-decoration: none;
     color: black;
 }
@@ -18,10 +22,14 @@ a {
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
+    font-size: 24px;
     color: #979797;
     margin: 0 0 16px 0;
 }
 
+section {
+    padding: 64px 128px;
+}
 
 .btn { /* Dalam CSS, tanda titik (.) digunakan untuk memanggil class yang telah didefinisikan di dalam HTML. 
           Class memungkinkan Anda menerapkan gaya tertentu ke satu atau lebih elemen tanpa mempengaruhi elemen lainnya. 
@@ -46,7 +54,25 @@ p {
                                               Efeknya: Elemen akan memiliki garis tepi dengan ketebalan dan warna tertentu. */
 }
 
-.landing p {
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+
+#landing p {
     margin-bottom: 25px;
 }
 

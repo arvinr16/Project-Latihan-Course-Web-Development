@@ -16,6 +16,8 @@ a {
 }
 
 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
     color: #979797;
     margin: 0 0 16px 0;
 }
@@ -83,4 +85,13 @@ nav > a {
    Kesimpulan :
    Gunakan descendant combinator jika ingin menargetkan semua elemen dalam sebuah elemen induk, tidak peduli seberapa dalam mereka berada.
    Gunakan child combinator jika ingin menargetkan hanya anak langsung dari elemen induk. */
+
+
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
 

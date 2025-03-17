@@ -76,6 +76,10 @@ section {
     margin-bottom: 25px;
 }
 
+#landing > div {
+    width: 50%;
+}
+
 nav > a {
     color: rgb(66, 125, 234);
     margin-left: 10px;
@@ -120,4 +124,15 @@ nav > a {
     font-weight: 700;
     font-style: normal;
   }
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    column-gap: 16px;
+}
+
+#about > div {
+    width: 50%;
+}
 

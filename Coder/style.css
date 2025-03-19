@@ -4,6 +4,11 @@
     font-family: "Montserrat";
 }
 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 h1 {
     font-weight: 590;
     font-size: 48px;
@@ -188,4 +193,98 @@ nav > a {
 
 /* .gambar {
     object-fit: cover;
+} */
+
+.contact-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    column-gap: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(66, 125, 234);
+    padding: 30px 32px;
+    height: 350px;
+    margin: 50px 0 0 0;
+}
+
+form h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+form button {
+    border: none;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 19px;
+    margin-top: 19px;
+    grid-template-areas: "name subject"
+                         "email phone"
+                         "message message";
+}
+
+#input-name {
+    grid-area: name;
+}
+
+#input-subject {
+    grid-area: subject;
+}
+
+#input-email {
+    grid-area: email;
+}
+
+#input-phone {
+    grid-area: phone;
+}
+
+#input-message {
+    grid-area: message;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 19px;
+}
+
+.input-group label {
+    /* margin-bottom:  7px; */
+    font-size: 17px;
+}       
+
+.input-group input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+
+footer {
+    padding: 16px 128px;
+    background-color: rgb(66, 125, 234);
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+/* .social-icon {
+    gap: 100px;
+} */
+/* a img {
+    transition: transform 5 ease;
+}
+
+a img hover {
+    transform: scale(5);
 } */

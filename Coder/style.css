@@ -10,8 +10,8 @@ html, body {
 }
 
 h1 {
-    font-weight: 590;
-    font-size: 48px;
+    font-weight: 590; /* Properti font-weight mengatur ketebalan teks. */
+    font-size: 48px;  /* Properti font-size digunakan untuk menentukan ukuran teks. */
     margin-top: 0 0 16px 0;
     
 }
@@ -22,8 +22,8 @@ h1 {
 
 a {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 500; 
+    font-size: 24px; 
     text-decoration: none;
     color: black;
 }
@@ -64,9 +64,33 @@ section {
 }
 
 #header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /* Properti "display" digunakan untuk menentukan bagaimana sebuah elemen akan ditampilkan di halaman web.
+                      Nilai umum "display" :
+                      block → Elemen tampil sebagai blok penuh (memenuhi lebar parent).
+                      inline → Elemen tampil sebaris, tanpa memulai baris baru.
+                      inline-block → Seperti inline, tetapi bisa memiliki tinggi dan lebar.
+                      none → Elemen tidak ditampilkan sama sekali.
+                      flex → Mengaktifkan Flexbox untuk tata letak yang fleksibel.
+                      grid → Mengaktifkan Grid Layout untuk pengaturan berbasis grid. */
+
+    align-items: center; /* Properti "align-items" digunakan untuk mengatur posisi elemen dalam sumbu sekunder 
+                            (vertikal dalam Flexbox default). 
+                            Nilai umum "align-items" : 
+                            stretch → Elemen akan mengisi seluruh tinggi parent (default).
+                            flex-start → Elemen sejajar ke atas.
+                            flex-end → Elemen sejajar ke bawah.
+                            center → Elemen sejajar di tengah secara vertikal.
+                            baseline → Elemen sejajar berdasarkan teks dasarnya. */
+
+    justify-content: space-between; /* Properti "justify-content" digunakan dalam Flexbox dan Grid 
+                                       untuk mengatur posisi elemen dalam sumbu utama (horizontal dalam Flexbox default).
+                                       Nilai umum "justify-content" :
+                                       flex-start → Elemen sejajar ke kiri (default).
+                                       flex-end → Elemen sejajar ke kanan.
+                                       center → Elemen sejajar di tengah.
+                                       space-between → Elemen berjauhan dengan jarak maksimal di antaranya.
+                                       space-around → Elemen memiliki jarak seimbang di kedua sisinya.
+                                       space-evenly → Jarak antar elemen benar-benar sama rata. */
     padding: 16px 128px;
     position: sticky;
     top: 0;
@@ -81,7 +105,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    column-gap: 16px;
+    column-gap: 16px; /* Properti column-gap digunakan untuk mengatur jarak horizontal (celah) 
+                         antara kolom dalam tata letak berbasis CSS Grid, Flexbox, atau Multi-column Layout. */
 }
 
 #landing p {
@@ -92,9 +117,30 @@ section {
     width: 50%;
 }
 
-nav > a {
+/* nav > a { (ini untuk membuat animasi pada teks, 
+              agar bisa berubah warna ketika cursor 
+              di arahkan teks tersebut)
     color: white;
     margin-left: 10px;
+    transition: ease-in-out 0.5s; (animasi transisi)
+}
+
+nav > a:hover {
+    color: black;
+    opacity: 0.5;  (Teks akan sedikit transparan) 
+} */
+
+nav > a { /* ini untuk membuat teks menjadi mempunyai efek animasi melebar saat di arahkan ke teks tersebut */
+    color: white;
+    margin-left: 10px;
+    font-weight: normal;
+    transition: font-weight 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;
+}
+
+nav > a:hover {
+    color: rgb(241, 241, 241);
+    font-weight: bold; /* Huruf jadi tebal */
+    letter-spacing: 3px; /* Huruf melebar */
 }
 
 /* Combinatior CSS
@@ -132,9 +178,10 @@ nav > a {
 
 .montserrat {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+    font-optical-sizing: auto; /* Properti ini mengaktifkan atau menonaktifkan penyesuaian 
+                                  ukuran font secara otomatis agar tetap terlihat jelas dalam berbagai ukuran. */
     font-weight: 700;
-    font-style: normal;
+    font-style: normal; /* Properti font-style digunakan untuk mengatur gaya teks, seperti italic (miring). */
   }
 
 #about {
@@ -164,7 +211,13 @@ nav > a {
 
 .about-stats-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Properti flex-direction digunakan dalam CSS Flexbox untuk menentukan arah utama 
+                               di mana item flex akan ditata dalam container (display: flex). 
+                               "flex-direction" memiliki 4 nilai utama yaitu :
+                               1. row =	Horizontal (kiri ke kanan),	(Default) Item disusun dari kiri ke kanan.
+                               2. row-reverse = Horizontal (kanan ke kiri),	Item disusun dari kanan ke kiri.
+                               3. column = Vertikal (atas ke bawah), Item disusun dari atas ke bawah.
+                               4. column-reverse = Vertikal (bawah ke atas), Item disusun dari bawah ke atas.*/
     align-items: center;
 }
 
@@ -225,6 +278,12 @@ form h1 {
 
 form button {
     border: none;
+    transition: opacity 0.3s ease-in-out 0.2s;
+}
+
+form button:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .form-group {
@@ -238,7 +297,10 @@ form button {
 }
 
 #input-name {
-    grid-area: name;
+    grid-area: name; /* Atribut grid-area dalam CSS digunakan 
+                        dalam CSS Grid Layout untuk menempatkan 
+                        elemen dalam suatu grid container dengan 
+                        cara yang lebih fleksibel dan mudah dibaca. */
 }
 
 #input-subject {
@@ -272,6 +334,10 @@ form button {
     border: none;
     outline: none;
     border-bottom: 1px solid black;
+}
+
+.input-group input:focus {
+    border-bottom: 2px solid rgb(66, 125, 234);
 }
 
 

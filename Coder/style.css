@@ -134,7 +134,11 @@ nav > a { /* ini untuk membuat teks menjadi mempunyai efek animasi melebar saat 
     color: white;
     margin-left: 10px;
     font-weight: normal;
-    transition: font-weight 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;
+    transition: font-weight 0.3s ease-in-out, letter-spacing 0.3s ease-in-out; /* Properti transition dalam CSS digunakan 
+                                                                                  untuk membuat animasi perubahan nilai properti CSS 
+                                                                                  secara halus (smooth) dalam jangka waktu tertentu. 
+                                                                                  Ini berguna untuk meningkatkan user experience (UX) 
+                                                                                  tanpa memerlukan JavaScript atau library tambahan. */
 }
 
 nav > a:hover {
@@ -227,6 +231,21 @@ nav > a:hover {
     justify-content: space-between;
 }
 
+.service-header h1 {
+    position: relative;
+}
+
+.service-header h1::before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: url(./images/accent1.svg);
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    z-index: -1;
+}
+
 .service-detail {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -235,11 +254,25 @@ nav > a:hover {
 }
 
 .service-detail-item {
+    transition:  0.7s;
     box-shadow: 5px 7px 3px #c7c7c7;
+}
+
+.service-detail-item:hover {
+    transform: scale(1.1); /* Properti transform dalam CSS digunakan untuk mengubah tampilan elemen, 
+                              seperti memindahkan, memutar, memperbesar, atau mendistorsi elemen 
+                              tanpa mempengaruhi tata letak elemen lainnya. */
+}
+
+.service-detail-item:hover img {
+    filter: grayscale(0);
 }
 
 .service-detail-item img {
     width: 100% ;
+    filter: grayscale(100); /* Properti filter dalam CSS digunakan untuk menerapkan efek visual pada elemen, 
+                            seperti blur, brightness, kontras, dan efek lainnya. Properti ini sering digunakan pada gambar, 
+                            elemen latar belakang, atau elemen HTML lainnya untuk memberikan tampilan yang lebih menarik. */
 }
 
 .service-detail-item p {
@@ -254,6 +287,21 @@ nav > a:hover {
 /* .gambar {
     object-fit: cover;
 } */
+
+#contact h1 {
+    position: relative;
+}
+
+#contact > h1::before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: url(./images/accent2.svg);
+    left: -20px;
+    top: -10px;
+    z-index: -1;
+}
 
 .contact-detail {
     display: flex;

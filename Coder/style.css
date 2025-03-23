@@ -51,6 +51,14 @@ section {
     padding: 10px 20px; /* Padding adalah ruang di dalam elemen, antara konten dan border. 
                            Efeknya: Konten akan memiliki jarak dari batas dalam elemen, 
                            tapi ukuran total elemen akan bertambah jika box-sizing: content-box; digunakan. */
+    transition: 0.7s;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .btn-alt {
@@ -61,6 +69,11 @@ section {
 
     border: 2px solid rgb(66, 125, 234); /* Border adalah garis yang mengelilingi elemen, berada di antara padding dan margin. 
                                               Efeknya: Elemen akan memiliki garis tepi dengan ketebalan dan warna tertentu. */
+}
+
+.button-landing {
+    display: flex; /* Pastikan tombol tersusun dalam satu baris */
+    gap: 10px; /* Beri jarak antar tombol */
 }
 
 #header {

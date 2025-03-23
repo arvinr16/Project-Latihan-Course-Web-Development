@@ -1,0 +1,52 @@
+* {
+    font-family: "Montserrat";
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-color: rgb(66, 125, 234);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    animation: bounceIn 1s; /* pemanggilan animasi pantulan dari @keyframes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+    font-weight: 590; /* Properti font-weight mengatur ketebalan teks. */
+    font-size: 36px;  /* Properti font-size digunakan untuk menentukan ukuran teks. */
+    margin-top: 0 0 16px 0;
+    
+}
+
+.h1-header {
+    color: white;
+    height: 450px;
+}
+
+
+
+@keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
+    0% {
+        filter: opacity(0);
+        transform: translateY(-20px);
+    }
+    35% {
+        filter: opacity(0.25);
+        transform: translateY(0);
+    }
+    70% {
+        filter: opacity(0.5);
+        transform: translateY(10px);
+    }
+    100% {
+        filter: opacity(1);
+        transform: translateY(0);
+    }
+  }

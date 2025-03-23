@@ -72,7 +72,6 @@ section {
 }
 
 .button-landing {
-    display: flex; /* Pastikan tombol tersusun dalam satu baris */
     gap: 10px; /* Beri jarak antar tombol */
 }
 

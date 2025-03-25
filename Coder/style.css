@@ -2,6 +2,8 @@
        Fungsinya adalah untuk memilih semua elemen dalam dokumen HTML, 
        sehingga aturan CSS yang diterapkan akan berlaku untuk semua elemen di halaman. */
     font-family: "Montserrat";
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html, body {
@@ -348,12 +350,16 @@ nav > a:hover {
     column-gap: 50px;
 }
 
+.contact-detail > div, .contact-detail > form {
+    width: 50%;
+}
+
 form {
     display: flex;
     flex-direction: column;
     border: 3px solid rgb(66, 125, 234);
     padding: 30px 32px;
-    height: 350px;
+    height: 400px;
     margin: 50px 0 0 0;
 }
 
@@ -440,6 +446,26 @@ footer p {
 /* .social-icon {
     gap: 100px;
 } */
+
+@media only screen and (max-width: 1200px) {
+    .service-detail {
+        gap: 24px;
+    }
+    
+    .contact-detail {
+        gap: 24px;
+    }
+
+    form {
+        height: 500px;
+    }
+
+    .form-group {
+        margin-top: -1px;
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* a img {
     transition: transform 5 ease;
 }
@@ -488,5 +514,16 @@ a img hover {
         justify-content: center;
         align-items: center;
         row-gap: 64px;
+    }
+
+    .contact-detail form, .contact-detail > div {
+        width: 100%;
+    }
+
+    .contact-detail > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

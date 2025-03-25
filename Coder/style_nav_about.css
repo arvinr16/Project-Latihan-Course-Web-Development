@@ -35,7 +35,7 @@ h1 {
     color: rgb(74, 116, 194);
     max-width: 800px;
     margin: 0;
-    transition: 0.7s;
+    transition: 1.5s;
 }
 
 .content:hover {

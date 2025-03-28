@@ -1,3 +1,4 @@
+console.log("Hello, World! (external)")
 // console.log("Hello, World! (external)")
 
 // Di JavaScript ada beberapa jenis variable, yaitu :

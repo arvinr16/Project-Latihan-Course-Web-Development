@@ -26,6 +26,7 @@
 // constVariable = "Hello from const again";
 
 // Di JavaScript ada beberapa Tipe Data, yaitu :
+
 // 1. Tipe Data "Undefined(tidak di definisikan)"
 let undefinedValue;
 console.log(undefinedValue);
@@ -61,3 +62,12 @@ let objectValue = {
 console.log(typeof objectValue.kunci);
 console.log(typeof objectValue.a);
 console.log(typeof objectValue.boolean);
+
+let hitungValue = {
+    tambah: 1+1,
+    kurang: 20-10,
+    perkalian: 5*5
+}
+console.log(hitungValue.tambah)
+console.log(hitungValue.kurang)
+console.log(hitungValue.perkalian)

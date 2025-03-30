@@ -1,5 +1,6 @@
 // console.log("Hello, World! (external)")
 
+// Type of Variable in JavaScript
 // Di JavaScript ada beberapa jenis variable, yaitu :
 
 // 1. Ini adalah contoh penggunaaan Variable "var
@@ -25,6 +26,7 @@
 // const constVariable = "Hello from const";
 // constVariable = "Hello from const again";
 
+// Data Type of JavaScript
 // Di JavaScript ada beberapa Tipe Data, yaitu :
 
 // 1. Tipe Data "Undefined(tidak di definisikan)"
@@ -63,6 +65,43 @@ console.log(typeof objectValue.kunci);
 console.log(typeof objectValue.a);
 console.log(typeof objectValue.boolean);
 
+
+
+// Arithmetic Operators
+
+let num1 = 2, num2 = 3, num3 = 5;
+
+// Tambah (+)
+console.log(10 + 20);
+console.log(num1 + num2);
+
+// Kurang (-)
+console.log(20-10);
+console.log(num3 - num2);
+
+// Perkalian (*)
+console.log(5 * 10);
+console.log(num2 * num1);
+
+// Pembagian (/)
+console.log(10 / 2);
+console.log(num3 / num1);
+
+// Perpangkatan (**)
+console.log(2 ** 3);
+console.log(num3 ** 3);
+
+// Modulus (%)
+console.log(10 % 2);
+console.log(num3 % 2);
+
+// Increment (++)
+console.log(num1++); // Hasil 2 karena ditampilkan dulu 
+                     // baru tambah nanti setelah di print(console.log)
+console.log(num1);   // Tampilkan hasil dari penambahan di atas
+
+console.log(++num1); // Tambah dulu baru tampilkan
+
 let hitungValue = {
     tambah: 1+1,
     kurang: 20-10,
@@ -71,3 +110,4 @@ let hitungValue = {
 console.log(hitungValue.tambah)
 console.log(hitungValue.kurang)
 console.log(hitungValue.perkalian)
+

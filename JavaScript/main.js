@@ -102,6 +102,11 @@ console.log(num1);   // Tampilkan hasil dari penambahan di atas
 
 console.log(++num1); // Tambah dulu baru tampilkan
 
+// Decrement (--)
+console.log(num3--);
+console.log(num3);
+console.log(--num3);
+
 let hitungValue = {
     tambah: 1+1,
     kurang: 20-10,
@@ -110,4 +115,8 @@ let hitungValue = {
 console.log(hitungValue.tambah)
 console.log(hitungValue.kurang)
 console.log(hitungValue.perkalian)
+
+// Cara untuk melakukan penambahan nilai dari Variable
+num1 += num3;
+console.log(num1);
 

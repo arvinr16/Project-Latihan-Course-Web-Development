@@ -130,3 +130,16 @@ if (numIf1 > numIf2) {
 } else {
     console.log("Kondisi Salah");
 }
+
+let numArith1 = 11, numArith2 = 10;
+
+console.log("Conditional Arithmetic");
+if(numArith1 > numArith2) {
+    console.log(200 * 2);
+} else if(numArith1 < numArith2) {
+    console.log(1000 / 10);
+} else if(numArith1 >= numArith2) {
+    console.log(1000 + 2000);
+} else if(numArith1 <= numArith2) {
+    console.log("Semua Kondisi Arithmetic Salah");
+}

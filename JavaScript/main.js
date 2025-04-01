@@ -120,3 +120,13 @@ console.log(hitungValue.perkalian)
 num1 += num3;
 console.log(num1);
 
+let numIf1 = 10, numIf2 = 20;
+
+console.log("Materi Conditional");
+if (numIf1 > numIf2) {
+    console.log("Kondisi Benar");
+} else if(numIf1 < numIf2){
+    console.log("Kondisi kedua Benar");
+} else {
+    console.log("Kondisi Salah");
+}

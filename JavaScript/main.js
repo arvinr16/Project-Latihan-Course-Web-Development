@@ -143,3 +143,49 @@ if(numArith1 > numArith2) {
 } else if(numArith1 <= numArith2) {
     console.log("Semua Kondisi Arithmetic Salah");
 }
+
+console.log("Conditional Statement/Comparison Operator");
+// Conditional Statement ==(Sama Dengan)
+console.log("Conditonal Statement ==(sama dengan)");
+let var1 = 10, var2 = 11;
+
+if (var1 == var2) {
+    console.log("If 1 Benar");
+}
+if (var1 === var2) {
+    console.log("If 2 Benar");
+} else {
+    console.log("If 2 Salah");
+}
+
+// Conditional Statement !=(Beda Dengan)
+console.log("Conditional Statement !=(beda dengan)");
+let var7 = 10, var8 = 11;
+
+if (var1 != var2) {
+    console.log("If 1 Benar");
+} 
+if (var1 !== var2) {
+    console.log("If 2 Benar");
+} else {
+    console.log("If 2 Salah");
+}
+
+// Conditional Statement >(Lebih Besar)
+console.log("Conditional Statement >(lebih besar)");
+let var3 = 19, var4 = 20;
+
+if (var3 > var4) {
+    console.log("var3 lebih besar dari var4");
+} else {
+    console.log("var3 lebih kecil dari var4");
+}
+
+// Conditional Statement <(Lebih Kecil)
+console.log("Conditional Statement <(lebih kecil)");
+let var5 = 10, var6 = 20;
+if (var5 < var6) {
+    console.log("var5 lebih kecil dari var6");
+} else {
+    console.log("var5 lebih besar dari var6");
+}

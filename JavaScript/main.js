@@ -189,3 +189,16 @@ if (var5 < var6) {
 } else {
     console.log("var5 lebih besar dari var6");
 }
+
+console.log("Logical Operator");
+
+let var9 = 10, var10 = 50, var11 = 50;
+
+// Mengecek angka diantara var9 dan var11
+if(var10 > var9) {
+    console.log("Benar var10 > var9");
+}
+
+if(var10 > var9 && var10 < var11); {
+    console.log("Benar var10 berada diantara di var9 dan var11");
+}

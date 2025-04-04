@@ -25,7 +25,7 @@
 // console.log(constVariable);
 // const constVariable = "Hello from const";
 // constVariable = "Hello from const again";
-
+console.log("")
 // Data Type of JavaScript
 // Di JavaScript ada beberapa Tipe Data, yaitu :
 
@@ -65,7 +65,7 @@ console.log(typeof objectValue.kunci);
 console.log(typeof objectValue.a);
 console.log(typeof objectValue.boolean);
 
-
+console.log("");
 
 // Arithmetic Operators
 
@@ -122,6 +122,7 @@ console.log(num1);
 
 let numIf1 = 10, numIf2 = 20;
 
+console.log("");
 console.log("Materi Conditional");
 if (numIf1 > numIf2) {
     console.log("Kondisi Benar");
@@ -131,6 +132,7 @@ if (numIf1 > numIf2) {
     console.log("Kondisi Salah");
 }
 
+console.log("");
 let numArith1 = 11, numArith2 = 10;
 
 console.log("Conditional Arithmetic");
@@ -144,6 +146,7 @@ if(numArith1 > numArith2) {
     console.log("Semua Kondisi Arithmetic Salah");
 }
 
+console.log("");
 console.log("Conditional Statement/Comparison Operator");
 // Conditional Statement ==(Sama Dengan)
 console.log("Conditonal Statement ==(sama dengan)");
@@ -190,6 +193,7 @@ if (var5 < var6) {
     console.log("var5 lebih besar dari var6");
 }
 
+console.log("");
 console.log("Logical Operator");
 
 let var9 = 10, var10 = 50, var11 = 50;

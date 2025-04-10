@@ -35,3 +35,13 @@ input.setAttribute("type", "checkbox");
 let input2 = document.getElementById("input2");
 input2.style.borderColor = "red";
 input2.style.color = "crimson";
+
+// Create Element
+const pElement = document.createElement("p");
+const divEl = document.getElementById("div-3");
+
+divEl.appendChild(pElement);
+pElement.innerHTML = "Hello Ini adalah P (create element)"
+
+// Delete Element
+// divEl.removeChild(pElement);

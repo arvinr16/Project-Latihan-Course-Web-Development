@@ -19,29 +19,54 @@ console.log("materiTetapiBelumJadi-jadi");
 // console.log(el[0]);
 
 // querySelector memungkinkan untuk mengambil elemen HTML berdasarkan kelas, id, atau tag seperti saat menggunakan CSS.
-let ele = document.querySelector("div");
-console.log(ele)
-let el = document.querySelector("#div-1");
-console.log(el);
+// let ele = document.querySelector("div");
+// console.log(ele)
+// let el = document.querySelector("#div-1");
+// console.log(el);
 
 // Set HTML Content
-ele.innerHTML = "<p>Ini percobaan InnerHTML untuk membuat Element baru</p>";
-el.innerHTML = "Hallo Ini Percobaan menggunakan InnerHTML";
+// ele.innerHTML = "<p>Ini percobaan InnerHTML untuk membuat Element baru</p>";
+// el.innerHTML = "Hallo Ini Percobaan menggunakan InnerHTML";
 
 // Change Attribute
-let input = document.getElementById("input");
-console.log(input);
-input.setAttribute("type", "checkbox");
-let input2 = document.getElementById("input2");
-input2.style.borderColor = "red";
-input2.style.color = "crimson";
+// let input = document.getElementById("input");
+// console.log(input);
+// input.setAttribute("type", "checkbox");
+// let input2 = document.getElementById("input2");
+
+// Change Element Style
+// input2.style.borderColor = "red";
+// input2.style.color = "crimson";
 
 // Create Element
-const pElement = document.createElement("p");
-const divEl = document.getElementById("div-3");
+// const pElement = document.createElement("p");
+// const divEl = document.getElementById("div-3");
 
-divEl.appendChild(pElement);
-pElement.innerHTML = "Hello Ini adalah P (create element)"
+// divEl.appendChild(pElement);
+// pElement.innerHTML = "Hello Ini adalah P (create element)"
 
 // Delete Element
 // divEl.removeChild(pElement);
+
+console.log("");
+console.log("Materi Event Listener");
+const hello = document.getElementById("hello");
+
+hello.addEventListener("mouseenter", function() {
+    console.log("Hello Ini Event Listener");
+    hello.style.border = "3px solid lightblue";
+})
+// Materi Event Listener (Cara Pertama)
+const btn = document.getElementById("btn");
+btn.addEventListener("click", function() {
+    const boom = document.getElementById("boom");
+    boom.style.display = "block"
+})
+// Materi Event Listener (Cara Kedua, buat Fungsi terpisah di file HTML)
+function showBoom() {
+    const boom = document.getElementById("boom");
+    boom.style.display = "block"
+}
+function addBorder(el) {
+    el.style.border = "2px solid lightblue";   
+}

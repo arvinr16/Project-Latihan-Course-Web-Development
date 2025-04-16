@@ -5,7 +5,7 @@ function onFormSubmit(e) {
     const inputValue = e.target.children[0].value;
     console.log(inputValue);
 
-    
+    list.appendChild(createListItem(inputValue));
 }
 
 function createListItem(inputValue) {

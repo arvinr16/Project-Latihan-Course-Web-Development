@@ -8,14 +8,20 @@ function onFormSubmit(e) {
     list.appendChild(createListItem(inputValue));
 }
 
+function deleteListItem(e) {
+    const parent = e.target.parentElement;
+    list.removeChild(parent);
+}
+
 function createListItem(inputValue) {
     const item = document.createElement("div")
     item.innerHTML = `
-        <div>
+        <div class="list-item-detail">
             <input type="checkbox" />
             <span>${inputValue}</span>
         </div>
-        <button>X</button>
+        <button onclick="deleteListItem(event)">X</button>
     `
+    item.setAttribute("class", "list-item")
     return item
 }

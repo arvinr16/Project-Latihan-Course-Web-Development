@@ -30,7 +30,7 @@ console.log("materiTetapiBelumJadi-jadi");
 // ele.innerHTML = "<p>Ini percobaan InnerHTML untuk membuat Element baru</p>";
 // el.innerHTML = "Hallo Ini Percobaan menggunakan InnerHTML";
 
-// Change Attribute
+// Change Attribute = getElementById digunakan untuk mengambil elemen HTML dengan ID tertentu.
 // let input = document.getElementById("input");
 // console.log(input);
 // input.setAttribute("type", "checkbox");

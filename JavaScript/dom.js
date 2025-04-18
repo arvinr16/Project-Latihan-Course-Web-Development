@@ -37,17 +37,17 @@ console.log("materiTetapiBelumJadi-jadi");
 // input.setAttribute("type", "checkbox"); // setAttribute("type", "checkbox") digunakan untuk mengubah tipe elemen input(teks) menjadi checkbox.
 // let input2 = document.getElementById("input2");
 
-// Change Element Style = Bagian ini untuk mengubah tampilan atau style CSS dari elemen secara langsung melalui JavaScript.
+// Change Element Style = Digunakan untuk mengubah tampilan atau style CSS dari elemen secara langsung melalui JavaScript.
                        // Dalam case ini, Mengubah warna border dan warna teks dari elemen dengan ID 'input2'
 // input2.style.borderColor = "red"; // dalam case ini, style.borderColor mengubah warna border (garis tepi).
 // input2.style.color = "crimson"; // dalam case ini, style.color mengubah warna teks dari elemen.
 
-// Create Element
-// const pElement = document.createElement("p");
-// const divEl = document.getElementById("div-3");
-
+// Create Element = Digunakan untuk membuat elemen HTML baru secara dinamis dan menambahkannya ke dalam DOM
+                //  Dalam case ini, Membuat elemen paragraf baru, menambahkan elemen ke dalam div dengan ID 'div-3', dan menetapkan isi teks elemennya.  
+// const pElement = document.createElement("p"); // createElement("p") digunakan untuk membuat elemen paragraf (<p>).
+// const divEl = document.getElementById("div-3"); // appendChild() digunakan untuk menambahkan elemen ke dalam elemen lain (misalnya ke dalam div).
 // divEl.appendChild(pElement);
-// pElement.innerHTML = "Hello Ini adalah P (create element)"
+// pElement.innerHTML = "Hello Ini adalah P (create element)" // innerHTML digunakan untuk mengisi konten teks dari elemen paragraf <p> diatas.
 
 // Delete Element
 // divEl.removeChild(pElement);

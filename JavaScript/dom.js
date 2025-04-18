@@ -38,6 +38,7 @@ console.log("materiTetapiBelumJadi-jadi");
 // let input2 = document.getElementById("input2");
 
 // Change Element Style = Bagian ini untuk mengubah tampilan atau style CSS dari elemen secara langsung melalui JavaScript.
+                       // Dalam case ini, Mengubah warna border dan warna teks dari elemen dengan ID 'input2'
 // input2.style.borderColor = "red"; // dalam case ini, style.borderColor mengubah warna border (garis tepi).
 // input2.style.color = "crimson"; // dalam case ini, style.color mengubah warna teks dari elemen.
 

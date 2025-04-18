@@ -18,13 +18,15 @@ console.log("materiTetapiBelumJadi-jadi");
                                                    // Hasil: Mengembalikan HTMLCollection. 
 // console.log(el[0]);
 
-// querySelector memungkinkan untuk mengambil elemen HTML berdasarkan kelas, id, atau tag seperti saat menggunakan CSS.
+// querySelector = memungkinkan untuk mengambil elemen HTML berdasarkan kelas, id, atau tag seperti saat menggunakan CSS.
 // let ele = document.querySelector("div");
 // console.log(ele)
 // let el = document.querySelector("#div-1");
 // console.log(el);
 
-// Set HTML Content
+// Set HTML Content = innerHTML digunakan untuk mengatur konten HTML dari suatu elemen, bisa berupa teks atau bahkan tag HTML baru.
+                   // Menetapkan atau mengganti isi HTML dari elemen tertentu menggunakan innerHTML.
+                   // Cocok digunakan saat kita ingin menambahkan konten dinamis ke dalam halaman.
 // ele.innerHTML = "<p>Ini percobaan InnerHTML untuk membuat Element baru</p>";
 // el.innerHTML = "Hallo Ini Percobaan menggunakan InnerHTML";
 

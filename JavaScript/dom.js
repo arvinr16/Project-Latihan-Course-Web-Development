@@ -31,15 +31,15 @@ console.log("materiTetapiBelumJadi-jadi");
 // el.innerHTML = "Hallo Ini Percobaan menggunakan InnerHTML";
 
 // Change Attribute = getElementById digunakan untuk mengambil elemen HTML dengan ID tertentu.
-                   // dalam case ini Mengambil elemen dengan ID 'input' dan mengubah tipenya menjadi checkbox
+                   // dalam case ini, Mengambil elemen dengan ID 'input' dan mengubah tipenya menjadi checkbox
 // let input = document.getElementById("input");
 // console.log(input);
 // input.setAttribute("type", "checkbox"); // setAttribute("type", "checkbox") digunakan untuk mengubah tipe elemen input(teks) menjadi checkbox.
 // let input2 = document.getElementById("input2");
 
-// Change Element Style
-// input2.style.borderColor = "red";
-// input2.style.color = "crimson";
+// Change Element Style = Bagian ini untuk mengubah tampilan atau style CSS dari elemen secara langsung melalui JavaScript.
+// input2.style.borderColor = "red"; // dalam case ini, style.borderColor mengubah warna border (garis tepi).
+// input2.style.color = "crimson"; // dalam case ini, style.color mengubah warna teks dari elemen.
 
 // Create Element
 // const pElement = document.createElement("p");

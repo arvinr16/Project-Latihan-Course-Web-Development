@@ -49,8 +49,9 @@ console.log("materiTetapiBelumJadi-jadi");
 // divEl.appendChild(pElement);
 // pElement.innerHTML = "Hello Ini adalah P (create element)" // innerHTML digunakan untuk mengisi konten teks dari elemen paragraf <p> diatas.
 
-// Delete Element
-// divEl.removeChild(pElement);
+// Delete Element = Digunakan untuk menghapus anak dari suatu elemen induk dalam DOM.
+// divEl.removeChild(pElement); // Dalam case ini, removeChild() akan menghapus elemen pElement dari dalam divEl.
+                                // Menghapus elemen paragraf (pElement) dari elemen div (divEl).
 
 console.log("");
 console.log("Materi Event Listener");

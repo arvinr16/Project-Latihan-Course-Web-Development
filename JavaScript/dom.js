@@ -64,8 +64,9 @@ hello.addEventListener("mouseenter", function() { // Menambahkan event listener 
     hello.style.border = "3px solid lightblue";
 })
 // Materi Event Listener (Cara Pertama)
-const btn = document.getElementById("btn");
-btn.addEventListener("click", function() {
+const btn = document.getElementById("btn"); // Mengambil elemen tombol (misalnya tombol klik) dengan 'id="btn"' dan menyimpannya ke variabel btn.
+btn.addEventListener("click", function() {  // Menambahkan Event Listener ke tombol yang akan aktif saat tombol diklik. Saat diklik, elemen dengan
+                                            // 'id="boom"' akan diubah properti 'displaynya' menjadi '"block"', artinya elemen akan ditampilkan.
     const boom = document.getElementById("boom");
     boom.style.display = "block"
 })

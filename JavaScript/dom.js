@@ -55,7 +55,7 @@ console.log("materiTetapiBelumJadi-jadi");
 
 console.log("");
 console.log("Materi Event Listener");
-const hello = document.getElementById("hello");
+const hello = document.getElementById("hello"); // Mengambil elemen HTML dengan 'id="hello"' dan menyimpannya dalam variable 'hello'.
 
 hello.addEventListener("mouseenter", function() {
     console.log("Hello Ini Event Listener");

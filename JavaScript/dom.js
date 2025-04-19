@@ -50,14 +50,16 @@ console.log("materiTetapiBelumJadi-jadi");
 // pElement.innerHTML = "Hello Ini adalah P (create element)" // innerHTML digunakan untuk mengisi konten teks dari elemen paragraf <p> diatas.
 
 // Delete Element = Digunakan untuk menghapus anak dari suatu elemen induk dalam DOM.
-// divEl.removeChild(pElement); // Dalam case ini, removeChild() akan menghapus elemen pElement dari dalam divEl.
+// divEl.removeChild(pElement); // Dalam case ini, 'removeChild()' akan menghapus elemen pElement dari dalam divEl.
                                 // Menghapus elemen paragraf (pElement) dari elemen div (divEl).
 
 console.log("");
 console.log("Materi Event Listener");
 const hello = document.getElementById("hello"); // Mengambil elemen HTML dengan 'id="hello"' dan menyimpannya dalam variable 'hello'.
 
-hello.addEventListener("mouseenter", function() {
+hello.addEventListener("mouseenter", function() { // Menambahkan event listener ke elemen 'hello' yang akan dijalankan saat mouse masuk
+                                                  // ke area elemen tersebut. Saat event terjadi, console akan menampilkan pesan, dan
+                                                  // elemen 'hello' akan diberi border berwarna biru muda.
     console.log("Hello Ini Event Listener");
     hello.style.border = "3px solid lightblue";
 })

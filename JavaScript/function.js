@@ -3,11 +3,12 @@ console.log("");
 console.log("Materi Function\n");
 console.log("");
 // String di sebuah Function
-function namaFunction() {
+function namaFunction() { // = Cara deklarasi function tanpa parameter. Fungsi ini
+                          //   hanya mencetak teks ke console saat dipanggil. 
     console.log("Hallo ini Test String di Function");
 }
 
-namaFunction()
+namaFunction() // = Cara pemanggilan fungsi tersebut (namaFunction()).
 
 console.log("")
 // Arguments dan Parameters

@@ -1,7 +1,7 @@
 // Materi tentang Function
 console.log("");
 console.log("Materi Function\n");
-console.log("");
+console.log(""); // Ini hanya bagian supaya lebih rapi pada saat console dibrowser.
 // String di sebuah Function
 function namaFunction() { // = Cara deklarasi function tanpa parameter. Fungsi ini
                           //   hanya mencetak teks ke console saat dipanggil. 
@@ -14,11 +14,12 @@ console.log("")
 // Arguments dan Parameters
 console.log("Arguments dan Parameters");
 
-function perkalian(num1, num2) {
+function perkalian(num1, num2) { // = Fungsi perkalian menerima dua parameter: 'num1 dan num2'.
+                                 // Di dalamnya, dilakukan operasi perkalian.
     console.log(num1 * num2);
 }
 
-perkalian(5,5);
+perkalian(5,5); // = Memanggil fungsi dengan nilai argumen 5 dan 5.
 
 console.log("");
 // Default Parameters
@@ -68,3 +69,9 @@ let arrowFunction = () => {
     console.log("Print 'Arrow Function'");
 }
 arrowFunction()
+
+// Perbedaan Parameter dan Argumen yaitu :
+// 
+// A. Parameter
+// 1. Definisi : Parameter adalah variabel yang dideklarasikan dalam definisi fungsi.
+// 2. Tujuan   : Parameter adalah tempat penampung nilai yang akan dikirim saat fungsi dipanggil.

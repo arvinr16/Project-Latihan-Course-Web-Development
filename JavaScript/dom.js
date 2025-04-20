@@ -71,10 +71,11 @@ btn.addEventListener("click", function() {  // Menambahkan Event Listener ke tom
     boom.style.display = "block"
 })
 // Materi Event Listener (Cara Kedua, buat Fungsi terpisah di file HTML)
-function showBoom() {
+function showBoom() {   // Fungsi ini dapat dipanggil dari HTML (misalnya lewat atribut onclick) untuk menampilkan elemen 'boom' dengan cara yang
+                        // sama seperti di atas.
     const boom = document.getElementById("boom");
     boom.style.display = "block"
 }
-function addBorder(el) {
+function addBorder(el) { 
     el.style.border = "2px solid lightblue";   
 }

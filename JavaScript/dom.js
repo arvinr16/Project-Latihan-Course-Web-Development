@@ -76,6 +76,7 @@ function showBoom() {   // Fungsi ini dapat dipanggil dari HTML (misalnya lewat 
     const boom = document.getElementById("boom");
     boom.style.display = "block"
 }
-function addBorder(el) { 
+function addBorder(el) { // Fungsi ini menerima elemen HTML sebagai parameter (el) dan memberikan border biru muda setebal 2px ke elemen tersebut.
+                         // Dapat digunakan untuk mempercantik elemen saat terjadi interaksi (misalnya saat hover atau klik).
     el.style.border = "2px solid lightblue";   
 }

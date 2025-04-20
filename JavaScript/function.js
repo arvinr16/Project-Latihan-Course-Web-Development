@@ -73,5 +73,16 @@ arrowFunction()
 // Perbedaan Parameter dan Argumen yaitu :
 // 
 // A. Parameter
-// 1. Definisi : Parameter adalah variabel yang dideklarasikan dalam definisi fungsi.
+// 1. Definisi : Parameter adalah 'variabel' yang dideklarasikan dalam definisi fungsi.
 // 2. Tujuan   : Parameter adalah tempat penampung nilai yang akan dikirim saat fungsi dipanggil.
+// 3. Letak    : Muncul saat 'mendefinisikan' fungsi.
+//    Contoh   : function sayHello(name) {
+//               console.log("Hello, " + name); 
+//               } * Disini, 'name' adalah parameter dari fungsi 'sayHello'.
+// 
+// B. Argumen
+// 1. Definisi : Argumen adalah nilai nyata yang dikirimkan ke fungsi saat fungsi itu dipanggil.
+// 2. Tujuan   : Memberikan input ke fungsi.
+// 3. Letak    : Muncul saat memanggil fungsi.
+//    Contoh   : sayHello("Alya"); 
+//               * Di sini, '"Alya"' adalah argumen yang dikirim ke parameter 'name'.

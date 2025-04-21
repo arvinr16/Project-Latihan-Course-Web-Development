@@ -37,15 +37,15 @@ sayHello();
 console.log("");
 // Return Statements Parameters
 console.log("Return Statements");
-function calculateArea(p, l) {
+function calculateArea(p, l) { // = Fungsi 'calculateArea' mengembalikan hasil dari 'p * l', bukan mencetaknya.
     return p * l
 }
 
-calculateArea()
-console.log(calculateArea(5, 5));
+calculateArea() // = dipanggil tanpa argumen, bisa menyebabkan hasil 'NaN' karena 'p dan l' tidak bernilai.
+console.log(calculateArea(5, 5)); // = Mencetak hasil dari fungsi.
 
 
-let result = calculateArea(5, 10);
+let result = calculateArea(5, 10); // = Menyimpan hasil dalam variabel, lalu dicetak.
 console.log(result)
 
 // Keyword Function

@@ -68,7 +68,9 @@ functionExpression()
 
 //Arrow Function
 console.log("");
-console.log("Arrow Function");
+console.log("Arrow Function");// = Bentuk modern dari 'Function', disebut 'Arrow Function'.
+                              //   Fungsionalitas nya sama dengan function biasa, hanya beda sintaks.
+                              //   Lebih ringkas, sering digunakan pada kode modern ES6+.
 let arrowFunction = () => {
     console.log("Print 'Arrow Function'");
 }

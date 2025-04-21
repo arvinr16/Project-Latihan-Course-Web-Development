@@ -59,7 +59,9 @@ keywordFunction()
 // Function Expression
 console.log("");
 console.log("Function Expression");
-let functionExpression = function() {
+let functionExpression = function() { // = Function disimpan dalam variabel 'functionExpression'.
+                                      //   Jenis ini disebut 'function expression'.
+                                      //   Fungsi dapat dipanggil melalui variabel tersebut.
     console.log("Print 'Function Expression'");
 }
 functionExpression()

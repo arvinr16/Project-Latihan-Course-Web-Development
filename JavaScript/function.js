@@ -25,7 +25,9 @@ console.log("");
 // Default Parameters
 console.log("Default Parameters");
 
-function sayHello(name = "World") {
+function sayHello(name = "World") { // = Fungsi 'sayHello' memiliki parameter 'name' dengan default 'world'.
+                                    //   Jika argumen tidak diberikan saat pemanggilan (contohnya 'sayHello()'), 
+                                    //   maka nilai default akan dipakai. 
     console.log("Hello " + name);
 }
 

@@ -50,8 +50,8 @@ console.log(result)
 
 // Keyword Function
 console.log("");
-console.log("Keyword Function");
-function keywordFunction() {
+console.log("Keyword Function"); // = Ini contoh fungsi biasa dalam menggunakan 'function' keyword.
+function keywordFunction() {     //   Fungsi ini mencetak string saat dipanggil.
     console.log("Keyword Function");
 }
 keywordFunction()

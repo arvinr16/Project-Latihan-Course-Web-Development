@@ -4,8 +4,9 @@ console.log("Materi DOM JS jQuery");
 
 // const el1 = document.getElementsByTagName("p"); = Cara native (vanilla JavaScript) untuk memilih semua
                                                 //   elemen '<p>' dalam dokumen.
-
-// const el2 = document.querySelectorAll("p");
+                                                
+// const el2 = document.querySelectorAll("p"); = Menggunakan 'querySelectorAll' dari JavaScript untuk memilih
+                                            //   semua elemen '<p>'.
 
 const el = $("#hello");
 

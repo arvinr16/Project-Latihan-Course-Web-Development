@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div id="hello">Hello World</div>
+      <button id="btn" onclick="showBoom()">Click Me</button> <!-- Cara Kedua dalam Pemanggilan 
+                                                                   Fungsi terpisah untuk Event Listener -->
+      <p id="boom" style="display: none">BOOM</p>
+      <p id="text" onmouseenter="addBorder(this)">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, inventore quasi.</p>
+    </section>
+    <!-- <section>
+        <div></div>
+        <div id="div-1"></div>
+        <div id="div-3"></div>
+        <div class="div-2"></div>
+        <input type="text" id="input">
+        <input type="text" id="input2">
+    </section> -->
+    <div>
+      <h1>Hello Ini Materi JavaScript</h1>
+    </div>
     <!-- <script>
         console.log("Hello, World! (internal)")
     </script> -->
     <script src="main.js"></script>
     <script src="function.js"></script>
-</body>
+    <script src="dom.js"></script>
+  </body>
 </html>

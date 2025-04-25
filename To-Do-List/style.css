@@ -1,0 +1,19 @@
+.list-item {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.list-item-detail {
+    display: flex;
+    align-items: center;
+}
+
+.list-item-detail input {
+    margin-right: 16px ;
+}
+
+.list-item-detail input:checked ~ span {
+    text-decoration: line-through;
+}

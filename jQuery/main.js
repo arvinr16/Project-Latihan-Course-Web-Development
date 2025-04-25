@@ -8,7 +8,10 @@ console.log("Materi DOM JS jQuery");
 // const el2 = document.querySelectorAll("p"); = Menggunakan 'querySelectorAll' dari JavaScript untuk memilih
                                             //   semua elemen '<p>'.
 
-const el = $("#hello");
+const el = $("#hello");// = Baris ini menggunakan jQuery untuk memilih elemen dengan 'id="hello"'.
+                       //   Hasilnya adalah objek 'jQuery' yang merepresentasikan elemen tersebut,
+                       //   dan bisa digunakan untuk manipulasi DOM seperti mengubah teks, atribut, 
+                       //   atau menambahkan event.
 
 const el1 = $(".world")
 

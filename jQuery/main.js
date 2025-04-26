@@ -13,7 +13,9 @@ const el = $("#hello");// = Baris ini menggunakan jQuery untuk memilih elemen de
                        //   dan bisa digunakan untuk manipulasi DOM seperti mengubah teks, atribut, 
                        //   atau menambahkan event.
 
-const el1 = $(".world")
+const el1 = $(".world");// = Menggunakan jQuery untuk memilih semua elemen yang memiliki 'class="world"'.
+                        //   Ini akan mengembalikan objek jQuery berisi semua elemen yang cocok, yang bisa
+                        //   dimanipulasi juga menggunakan metoder jQuery.
 
 console.log(el);
 console.log(el1);

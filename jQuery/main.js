@@ -17,5 +17,6 @@ const el1 = $(".world");// = Menggunakan jQuery untuk memilih semua elemen yang 
                         //   Ini akan mengembalikan objek jQuery berisi semua elemen yang cocok, yang bisa
                         //   dimanipulasi juga menggunakan metoder jQuery.
 
-console.log(el);
+console.log(el);// = Menampilkan isi dari variabel 'el' ke konsol, biasanya untuk debugging atau verifikasi
+                //   bahwa elemen dengan 'id="hello"' berhasil diambil.
 console.log(el1);

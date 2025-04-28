@@ -22,3 +22,10 @@ console.log(el);// = Menampilkan isi dari variabel 'el' ke konsol, biasanya untu
 
 console.log(el1);// = Menampilkan isi dari variabel 'el1' ke konsol, untuk melihat koleksi elemen dengan
                  //   'class="world"' yang berhasil dipilih.
+console.log("");
+console.log("Materi DOM JS jQuery DOM Manipulation");
+
+// Syntax Mengubah Isi Element HTML menggunakan '.html()' pada jQuery
+const el2 = $("#text");
+console.log(el2);
+el2.html("<h1>Tes Kata dari main.js(jQuery)</h1>");

@@ -25,7 +25,12 @@ console.log(el1);// = Menampilkan isi dari variabel 'el1' ke konsol, untuk melih
 console.log("");
 console.log("Materi DOM JS jQuery DOM Manipulation");
 
-// Syntax Mengubah Isi Element HTML menggunakan '.html()' pada jQuery
+// Syntax mengubah isi Element HTML menggunakan '.html()' pada jQuery
 const el2 = $("#text");
 console.log(el2);
 el2.html("<h1>Tes Kata dari main.js(jQuery)</h1>");
+
+console.log("");
+// Syntax mengubah isi Attribut HTML menggunakan '.attr()' pada jQuery
+const inp = $("input");
+inp.attr("type", "checkbox");

@@ -36,4 +36,7 @@ const inp = $("input");
 inp.attr("type", "checkbox");
 
 // Syntax untuk menambah dan menghapus Class pada jQuery.
+el2.addClass("red");
 el2.addClass("blue");
+
+el2.removeClass("blue");

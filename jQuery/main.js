@@ -34,8 +34,10 @@ el2.html("<h1>Tes Kata dari main.js(jQuery)</h1>");// = Mengubah isi dari elemen
 
 console.log("");
 // Syntax mengubah isi Attribut HTML menggunakan '.attr()' pada jQuery.
-const inp = $("input");
-inp.attr("type", "checkbox");
+const inp = $("input");// = Memilih elemen '<input>' pertama yang ditemukan di dalam dokumen dan menyimpannya
+                       //   dalam variabel 'inp'.
+inp.attr("type", "checkbox");// = Mengubah attribut 'type' dari elemen '<input>' menjadi 'checkbox', sehingga
+                             //   input menjadi checkbox.
 
 // Syntax untuk menambah dan menghapus Class pada jQuery.
 el2.addClass("red");

@@ -26,8 +26,9 @@ console.log("");
 console.log("Materi DOM JS jQuery DOM Manipulation");
 
 // Syntax mengubah isi Element HTML menggunakan '.html()' pada jQuery.
-const el2 = $("#text");
-console.log(el2);
+const el2 = $("#text");// = Mengambil elemen HTML dengan 'id="text"' dan menyimpannya dalam variabel 'el2'
+                       //   menggunakan jQuery.
+console.log(el2);// = Menampilkan objek jQuery 'el2' ke konsol untuk memastikan elemen berhasil dipilih.
 el2.html("<h1>Tes Kata dari main.js(jQuery)</h1>");
 
 console.log("");

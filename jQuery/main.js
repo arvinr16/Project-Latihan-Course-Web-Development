@@ -29,7 +29,8 @@ console.log("Materi DOM JS jQuery DOM Manipulation");
 const el2 = $("#text");// = Mengambil elemen HTML dengan 'id="text"' dan menyimpannya dalam variabel 'el2'
                        //   menggunakan jQuery.
 console.log(el2);// = Menampilkan objek jQuery 'el2' ke konsol untuk memastikan elemen berhasil dipilih.
-el2.html("<h1>Tes Kata dari main.js(jQuery)</h1>");
+el2.html("<h1>Tes Kata dari main.js(jQuery)</h1>");// = Mengubah isi dari elemen id '#text' menjadi tag '<h1>'
+                                                   //   dengan teks.
 
 console.log("");
 // Syntax mengubah isi Attribut HTML menggunakan '.attr()' pada jQuery.

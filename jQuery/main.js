@@ -60,3 +60,23 @@ inp.css({// = Di dalam 'Object', setiap pasangan 'key: value' merepresentasikan 
     border: "3px solid crimson", // = Memberikan style properti CSS dengan memberikan ketebalan 3px berwarna Crimson(merah tua).
     marginLeft: "100px"// = Memberikan style properti CSS dengan memberikan jarak (margin) sebelah kiri 100px.
 })
+
+// DOM Event jQuery
+console.log("Materi DOM Event jQuery");
+
+// Berikut syntax jika menggunakan JavaScript biasa :
+// const el3 = document.getElementById("text");
+// el3.addEventListener("mouseenter", function() {
+//     el3.style.border = "1px solid crimson"
+// });
+
+// Berikut syntax jika menggunakan jQuery pada JavaScript : 
+const el3 = $("#text")
+el3.mouseenter(function() {
+    el3.css("border", "1px solid crimson")
+})
+
+const inp1 = $("input")
+inp1.focus(function() {
+    inp1.css("border", "3px solid blue")
+})

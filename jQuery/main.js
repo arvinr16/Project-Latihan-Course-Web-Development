@@ -42,6 +42,7 @@ inp.attr("type", "checkbox");// = Mengubah attribut 'type' dari elemen '<input>'
 // Syntax untuk menambah dan menghapus Class pada jQuery.
 el2.addClass("red");// = Digunakan untuk menambahkan class 'red' ke elemen '#text', yang nantinya akan memberikan
                     //   gaya/style CSS tertentu.
-el2.addClass("blue");
+el2.addClass("blue");// = Menambahkan class 'blue' ke elemen '#text', sehingga sekarang elemen memiliki dua class
+                     //   'red' and 'blue'.
 
 el2.removeClass("blue");

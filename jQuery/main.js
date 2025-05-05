@@ -66,13 +66,14 @@ console.log("Materi DOM Event jQuery");
 
 // Berikut syntax jika menggunakan JavaScript biasa :
 // const el3 = document.getElementById("text");
-// el3.addEventListener("mouseenter", function() {
+// el3.addEventListener("mouseenter", function() { = Memberikan style border pada saat mouse masuk ke elemen dengan id 'text'.
 //     el3.style.border = "1px solid crimson"
 // });
 
 // Berikut syntax jika menggunakan jQuery pada JavaScript : 
-const el3 = $("#text")
-el3.mouseenter(function() {
+const el3 = $("#text")// = Mengambil elemen dengan id 'text' menggunakan 'jQuery dan menyimpannya dalam variabel 'el3'.
+el3.mouseenter(function() {// = Menambahkan Event Listener 'mouseenter' pada variabel 'el3'. Saat mouse diarahkan ke elemen tersebut,
+                           //   maka border akan berubah stylenya.
     el3.css("border", "1px solid crimson")
 })
 

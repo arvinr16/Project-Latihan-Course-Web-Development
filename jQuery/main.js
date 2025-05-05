@@ -56,7 +56,7 @@ el2.removeClass("blue");// = Menghapus class 'blue' dari elemen id '#text', sehi
 // inp.css("border", "1px solid crimson"); = Berfungsi mengatur properti 'CSS' border menjadi '1px solid crimson'.
 
 // Syntax untuk menggunakan CSS pada jQuery dengan DOM Manipulaiton lebih dari satu.
-inp.css({
-    border: "3px solid crimson",
-    marginLeft: "100px"
+inp.css({// = Di dalam 'Object', setiap pasangan 'key: value' merepresentasikan properti 'CSS' dan 'nilainya'.
+    border: "3px solid crimson", // = Memberikan style properti CSS dengan memberikan ketebalan 3px berwarna Crimson(merah tua).
+    marginLeft: "100px"// = Memberikan style properti CSS dengan memberikan jarak (margin) sebelah kiri 100px.
 })

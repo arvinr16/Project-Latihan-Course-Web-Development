@@ -53,7 +53,7 @@ el2.removeClass("blue");// = Menghapus class 'blue' dari elemen id '#text', sehi
 
 
 // Syntax untuk menggunakan CSS('css()') pada jQuery dengan menggunakan metode DOM Manipulation.
-// inp.css("border", "1px solid crimson");
+// inp.css("border", "1px solid crimson"); = Berfungsi mengatur properti 'CSS' border menjadi '1px solid crimson'.
 
 // Syntax untuk menggunakan CSS pada jQuery dengan DOM Manipulaiton lebih dari satu.
 inp.css({

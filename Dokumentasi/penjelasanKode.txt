@@ -1,0 +1,6 @@
+// = Menambahkan class 'blue' ke elemen '#text', sehingga sekarang elemen memiliki dua class
+                     //   'red' and 'blue'.
+
+
+
+// = Menghapus class 'blue' dari elemen '#text', sehingga yang tersisa hanya class 'red'.

@@ -46,3 +46,4 @@ el2.addClass("blue");// = Menambahkan class 'blue' ke elemen id '#text', sehingg
                      //   'red' and 'blue'.
 
 el2.removeClass("blue");// = Menghapus class 'blue' dari elemen id '#text', sehingga yang tersisa hanya class 'red'.
+// el2.removeClass(); = Cara menghapus semua class pada jQuery menggunakan DOM Manipulation.

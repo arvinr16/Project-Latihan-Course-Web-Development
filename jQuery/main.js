@@ -77,7 +77,8 @@ el3.mouseenter(function() {// = Menambahkan Event Listener 'mouseenter' pada var
     el3.css("border", "1px solid crimson")
 })
 
-const inp1 = $("input")
-inp1.focus(function() {
+const inp1 = $("input")// = Mengambil semua elemen '<input>' di HTML menggunakan 'jQuery' dan menyimpannya ke dalam variabel 'inp1'.
+inp1.focus(function() {// = Menambahkan event listener 'focus' pada elemen input. Saat elemen mendapat fokus (seperti diklik), maka bordernya
+                       //   akan berubah menjadi style yang berbeda.
     inp1.css("border", "3px solid blue")
 })

@@ -25,6 +25,7 @@ console.log(el1);// = Menampilkan isi dari variabel 'el1' ke konsol, untuk melih
 console.log("");
 console.log("Materi DOM JS jQuery DOM Manipulation");
 
+
 // Syntax mengubah isi Element HTML menggunakan '.html()' pada jQuery.
 const el2 = $("#text");// = Mengambil elemen HTML dengan 'id="text"' dan menyimpannya dalam variabel 'el2'
                        //   menggunakan jQuery.
@@ -33,13 +34,15 @@ el2.html("<h1>Tes Kata dari main.js(jQuery)</h1>");// = Mengubah isi dari elemen
                                                    //   dengan teks.
 
 console.log("");
+
 // Syntax mengubah isi Attribut HTML menggunakan '.attr()' pada jQuery.
 const inp = $("input");// = Memilih elemen '<input>' pertama yang ditemukan di dalam dokumen dan menyimpannya
                        //   dalam variabel 'inp'.
-inp.attr("type", "checkbox");// = Mengubah attribut 'type' dari elemen '<input>' menjadi 'checkbox', sehingga
+// inp.attr("type", "checkbox");// = Mengubah attribut 'type' dari elemen '<input>' menjadi 'checkbox', sehingga
                              //   input menjadi checkbox.
 
-// Syntax untuk menambah dan menghapus Class pada jQuery.
+
+// Syntax untuk Add(menambah) dan Remove(menghapus) Class pada jQuery.
 el2.addClass("red");// = Digunakan untuk menambahkan class 'red' ke elemen id '#text', yang nantinya akan memberikan
                     //   gaya/style CSS tertentu.
 el2.addClass("blue");// = Menambahkan class 'blue' ke elemen id '#text', sehingga sekarang elemen memiliki dua class
@@ -47,3 +50,13 @@ el2.addClass("blue");// = Menambahkan class 'blue' ke elemen id '#text', sehingg
 
 el2.removeClass("blue");// = Menghapus class 'blue' dari elemen id '#text', sehingga yang tersisa hanya class 'red'.
 // el2.removeClass(); = Cara menghapus semua class pada jQuery menggunakan DOM Manipulation.
+
+
+// Syntax untuk menggunakan CSS('css()') pada jQuery dengan menggunakan metode DOM Manipulation.
+// inp.css("border", "1px solid crimson");
+
+// Syntax untuk menggunakan CSS pada jQuery dengan DOM Manipulaiton lebih dari satu.
+inp.css({
+    border: "3px solid crimson",
+    marginLeft: "100px"
+})

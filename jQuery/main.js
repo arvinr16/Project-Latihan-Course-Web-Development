@@ -85,3 +85,13 @@ inp1.focus(function() {// = Menambahkan event listener 'focus' pada elemen input
 
 const btnShow = $("#show");
 const btnHide = $("#hide");
+
+const div = $("div");
+
+btnShow.click(function() {
+    div.show()
+})
+
+btnHide.click(function() {
+    div.hide()
+})

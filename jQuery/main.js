@@ -89,9 +89,9 @@ const btnHide = $("#hide");
 const div = $("div");
 
 btnShow.click(function() {
-    div.show()
+    div.show("slow")
 })
 
 btnHide.click(function() {
-    div.hide()
+    div.hide("slow")
 })

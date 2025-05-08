@@ -87,6 +87,7 @@ const btnShow = $("#show");
 const btnHide = $("#hide");
 const btnFadeIn = $("#fadeIn");
 const btnFadeOut = $("#fadeOut");
+const btnToggle = $("#toggle");
 
 const div = $("div");
 
@@ -104,4 +105,8 @@ btnFadeIn.click(function() {
 
 btnFadeOut.click(function() {
     div.fadeOut("slow")
+})
+
+btnToggle.click(function() {
+    div.toggle("slow")
 })

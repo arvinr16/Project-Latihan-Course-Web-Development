@@ -82,3 +82,6 @@ inp1.focus(function() {// = Menambahkan event listener 'focus' pada elemen input
                        //   akan berubah menjadi style yang berbeda.
     inp1.css("border", "3px solid blue")
 })
+
+const btnShow = $("#show");
+const btnHide = $("#hide");

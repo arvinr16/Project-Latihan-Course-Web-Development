@@ -85,6 +85,8 @@ inp1.focus(function() {// = Menambahkan event listener 'focus' pada elemen input
 
 const btnShow = $("#show");
 const btnHide = $("#hide");
+const btnFadeIn = $("#fadeIn");
+const btnFadeOut = $("#fadeOut");
 
 const div = $("div");
 
@@ -94,4 +96,12 @@ btnShow.click(function() {
 
 btnHide.click(function() {
     div.hide("slow")
+})
+
+btnFadeIn.click(function() {
+    div.fadeIn("slow")
+})
+
+btnFadeOut.click(function() {
+    div.fadeOut("slow")
 })

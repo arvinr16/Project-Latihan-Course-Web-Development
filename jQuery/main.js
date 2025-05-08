@@ -88,6 +88,7 @@ const btnHide = $("#hide");
 const btnFadeIn = $("#fadeIn");
 const btnFadeOut = $("#fadeOut");
 const btnToggle = $("#toggle");
+const btnSlideToggle = $("#slideToggle");
 
 const div = $("div");
 
@@ -109,4 +110,8 @@ btnFadeOut.click(function() {
 
 btnToggle.click(function() {
     div.toggle("slow")
+})
+
+btnSlideToggle.click(function() {
+    div.slideToggle("slow")
 })

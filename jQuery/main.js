@@ -115,3 +115,6 @@ btnToggle.click(function() {
 btnSlideToggle.click(function() {
     div.slideToggle("slow")
 })
+
+// Materi jQuery Selesai, jika ada yang mau berkontribusi pada repo ini, dipersilahkan untuk membuat pull request agar
+// saya bisa langsung melakukan merge branch pada repo ini, Terimakasih.

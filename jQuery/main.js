@@ -92,7 +92,7 @@ const btnSlideToggle = $("#slideToggle");
 
 const div = $("div");
 
-btnShow.click(function() {
+btnShow.click(function() {// = Saat tombol 'btnShow' diklik, elemen '<div>' akan muncul secara perlahan dengan aninmasi '("slow")'.
     div.show("slow")
 })
 

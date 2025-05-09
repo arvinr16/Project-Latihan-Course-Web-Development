@@ -96,7 +96,7 @@ btnShow.click(function() {// = Saat tombol 'btnShow' diklik, elemen '<div>' akan
     div.show("slow")
 })
 
-btnHide.click(function() {
+btnHide.click(function() {// = Saat tombol 'btnHide' diklik, elemen '<div>' akan disembunyikan secara perlahan dengan animasi.
     div.hide("slow")
 })
 

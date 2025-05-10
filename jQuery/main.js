@@ -110,7 +110,8 @@ btnFadeOut.click(function() {// = Saat tombol 'btnFadeOut' diklik, elemen '<div>
     div.fadeOut("slow")
 })
 
-btnToggle.click(function() {
+btnToggle.click(function() {// = Saat tombol 'btnToogle' diklik, elemen '<div>' akan berganti status: jika terlihat, maka akan
+                            //   disembunyikan; jika tersembunyi, maka akan ditampilkan.
     div.toggle("slow")
 })
 

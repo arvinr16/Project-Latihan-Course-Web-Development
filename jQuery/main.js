@@ -105,7 +105,8 @@ btnFadeIn.click(function() {// = Saat tombol 'btnFadeIn' diklik, elemen '<div>' 
     div.fadeIn("slow")
 })
 
-btnFadeOut.click(function() {
+btnFadeOut.click(function() {// = Saat tombol 'btnFadeOut' diklik, elemen '<div>' akan menghilang dengan efek 'fade out' (memudar 
+                             //   dari terlihat ke transparan).
     div.fadeOut("slow")
 })
 

@@ -18,19 +18,19 @@
 
 
     <!-- Materi Spacing & Sizing, Materi Background-Border-Color, Materi Display & Position. -->
-    <!-- <section
-      class="bg-danger position-sticky top-0 bg-gradient bg-opacity-75 border border-primary d-flex flex-column flex-xl-row align-items-center"
+   <section
+      class="bg-danger position-sticky top-0 bg-gradient bg-opacity-75 border-primary d-flex flex-column align-items-center"
     >
-      'class="w-50"' = Class Bootstrap untuk menetapkan lebar elemen
-      sebesar 50% dari parent-nya. 
+      <!-- 'class="w-50"' = Class Bootstrap untuk menetapkan lebar elemen
+                            sebesar 50% dari parent-nya. 
       'class="bg-color"' = Class untuk menambahkan background color.
       'flex-xl-row' = Untuk membuat ukuran responsive/ menentukan ukuran website
-      pada saat tertentu. 
+                      pada saat tertentu. 
       'position-sticky' = Digunakan untuk mengubah position pada tampilan website. -->
       <div class="mb-5 text-white" style="font-size: 30px">
-        <!-- 'class="m-1"(untuk memberi margin ke semua sisi), 
-             'class="p-1"(untuk memberi padding ke semua sisi)
-             'class="text-color"(untuk memberikan warna pada text).
+             <!-- 'class="m-1"(untuk memberi margin ke semua sisi), 
+                  'class="p-1"(untuk memberi padding ke semua sisi)
+                  'class="text-color"(untuk memberikan warna pada text). -->
         Ini Materi Bootstrap
       </div>
       <div class="mb-5 text-white" style="font-size: 30px">Hello</div>
@@ -91,22 +91,24 @@
       voluptatem laboriosam quos dolores. Nesciunt blanditiis nihil repellat
       animi, perspiciatis ab, hic voluptates sed suscipit aut quo repudiandae
       expedita atque omnis!
-    </p> -->
+    </p> <br>
 
-    <!-- Materi Gridding System -->
+    <!-- Materi Gridding System (Gridding System menggunakan 12 kolom) -->
     <section class="container"><!-- 'container' adalah kelas Bootstrap yang memberikan pembatas lebar tetap dan padding horizontal otomatis
                                     agar kontent tetap rapi di tengah halaman. -->
       <div class="row"><!-- 'row' adalah kelas Bootstrap yang digunakan untuk membuat baris dalam grid system.
                                   Semua kolom ('col-') harus dibungkus di dalam 'row' agat System Grid bekerja dengan benar dan menyusun kolom
                                   secara horizontal. -->
-        <div class="bg-danger col-4 col-lg-6">
+        <div class="bg-danger col-4 col-lg-6"><!-- 'bg-danger' = kelas Bootstrap yang memberikan warna background merah. 
+                                                   'col-4' = div ini akan mengambil 4 dari 12 kolom.
+                                                   'col-lg-6' = div ini akan mengambil 6 dari 12 kolom. -->
           Left
         </div>
         <div class="bg-primary col-8 col-lg-6">
           Right
         </div>
       </div>
-    </section>
+    </section> <br>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"

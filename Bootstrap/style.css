@@ -1,0 +1,9 @@
+.btn-primary {
+    background-color: purple;
+    border-color: greenyellow;
+    color: wheat;
+}
+
+.btn-primary:hover {
+    color: wheat;
+}

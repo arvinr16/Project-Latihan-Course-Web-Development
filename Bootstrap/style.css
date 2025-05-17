@@ -7,3 +7,9 @@
 .btn-primary:hover {
     color: wheat;
 }
+
+.my-button {
+    background-color: greenyellow;
+    color: purple;
+    border-color: wheat;
+}

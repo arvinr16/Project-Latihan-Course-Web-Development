@@ -10,7 +10,7 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="stylesheet" href="styleIndex.css" />
     <!-- Kode ini digunakan untuk menghubungkan file CSS dari Bootstrap ke halaman HTML,
             Bootstrap adalah framework CSS populer yang menyediakan desain responsif dan komponen
             siap pakai seperti <button>, <form>, <table>, dll. -->
@@ -120,7 +120,8 @@
     <br />
     <!-- Materi Bootstrap 'Components' -->
     <!-- Components 'Accordion' on Bootstrap -->
-    <section> <!-- Accordion = Pada Bootstrap 'Accordion' adalah salah satu components yang digunakan untuk 
+    <section>
+      <!-- Accordion = Pada Bootstrap 'Accordion' adalah salah satu components yang digunakan untuk 
                                menampilkan konten secara berlapis dan tersembunyi, di mana hanya satu panel
                                yang terbuka pada satu waktu(seperti harmonika/lipatan). -->
       <div class="accordion" id="accordionExample">
@@ -231,52 +232,54 @@
     <br />
 
     <!-- Component 'Modal' on Bootstrap -->
-    <section> <!-- Modal = Pada Bootstrap 'Modal' adalah components berupa popup dialog yang muncul di atas 
+    <section>
+      <!-- Modal = Pada Bootstrap 'Modal' adalah components berupa popup dialog yang muncul di atas 
                            halaman (overlay) untuk menampilkan konten penting tanpa meninggalkan halaman utama.-->
       <!-- Button trigger modal -->
-      <button
-        type="button"
-        id="buttonModal"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Launch demo modal
-      </button>
+      <div class="d-flex justify-content-center">
+        <button
+          type="button"
+          class="btn btn-success"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Launch demo modal
+        </button>
 
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
-                Modal title
-              </h1>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">...</div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">...</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
             </div>
           </div>
         </div>

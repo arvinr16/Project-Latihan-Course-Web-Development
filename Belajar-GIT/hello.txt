@@ -1,3 +1,21 @@
 Hello World! 
 
-Materi Git 'Basic' selesai
+> Materi Git 'Basic'
+Git Basic adalah dasar-dasar penggunaan Git, 
+yaitu Version Control System (VCS)/sistem kontrol versi 
+yang digunakan untuk melacak perubahan kode, bekerja secara kolaboratif, 
+dan mengelola proyek secara efisien.
+
+
+> Materi Git 'Branching'
+Branching adalah fitur di GitHub (dan Git) yang memungkinkan untuk
+membuat jalur pengembangan terpisah dari jalur utama (biasanya main atau master) 
+tanpa mengganggu kode utama.
+* Fungsi utama 'Branching'
+1. Mengembangkan fitur baru
+2. Memperbaiki bug
+3. Mencoba ide tanpa resiko merusak kode utama.
+* Manfaat :
+1. Kolaborasi jauh lebih rapi
+2. Perubahan lebih terkontrol
+3. Mudah rollback jika ada kesalahan

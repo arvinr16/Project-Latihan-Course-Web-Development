@@ -15,7 +15,11 @@ dan mengelola proyek secara efisien.
 7. git clone [url]          = Menyalin (mengunduh) repository dari Github ke lokal
 8. git log                  = Melihat riwayat commit
 
-
+* Manfaat Git :
+1. Menyimpan riwayat perubahan
+2. Mempermudah kerja tim
+3. Menghindari kehilangan kode
+4. Memungkinkan percobaan tanpa merusak versi utama
 
 
 > Materi Git 'Branching'

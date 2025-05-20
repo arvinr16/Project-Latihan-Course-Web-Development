@@ -7,7 +7,7 @@ yang digunakan untuk melacak perubahan kode, bekerja secara kolaboratif,
 dan mengelola proyek secara efisien.
 * Perintah dasar Git :
 1. git init                 = Membuat repository Git baru di folder lokal
-2. git status               = Menampilkan status perubahan di direktori kerja
+2. git status               = Menampilkan status perubahan di direktori kerja/Melihat file yang dimodifikasi, belum dilacak, atau siap di-commit.
 3. git add                  = Menambahkan file ke staging area (siap untuk di-commit)
 4. git commit -m "pesan"    = Memberikan pesan di commit pada riwayat project
 5. git push                 = Mengirim file/perubahan project dari Repository lokal ke Repository remote/Github
@@ -20,6 +20,31 @@ dan mengelola proyek secara efisien.
 2. Mempermudah kerja tim
 3. Menghindari kehilangan kode
 4. Memungkinkan percobaan tanpa merusak versi utama
+
+
+* Alur Basic Commands/Perintah Dasar Git dari awal (pastikan untuk menggunakan git bash yaa) :
+1. git config --global user.name "(username github kamu)"
+   git config --global user.email "(email yg di pake di github kamu)"
+   > Berfungsi : Menyimpan identitas kamu untuk setiap commit.
+
+2. git remote add origin https://github.com/username/nama-repository.git
+   > Berfungsi : Menghubungkan Repository lokal ke Repository GitHub(remote).
+
+3. git init
+   > Berfungsi : Menjadikan folder biasa menjadi repository Git lokal.
+
+4. git status
+   > Berfungsi : Melihat file yang dimodifikasi, belum dilacak, atau siap di-commit.
+
+5. git add ./ git add (nama file)
+   > Berfungsi : Menambahkan file ke staging area (siap untuk di-commit)
+
+6. git commit -m "pesan"
+   > Berfungsi : Memberikan pesan di commit pada riwayat project
+
+7. git push -u origin main
+   > Berfungsi : Mengirim semua commit ke GitHub untuk pertama kali (pakai -u untuk set upstream tracking).
+
 
 
 > Materi Git 'Branching'

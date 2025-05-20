@@ -5,6 +5,16 @@ Git Basic adalah dasar-dasar penggunaan Git,
 yaitu Version Control System (VCS)/sistem kontrol versi 
 yang digunakan untuk melacak perubahan kode, bekerja secara kolaboratif, 
 dan mengelola proyek secara efisien.
+* Perintah dasar Git :
+1. git init                 = Membuat repository Git baru di folder lokal
+2. git status               = Menampilkan status perubahan di direktori kerja
+3. git add                  = Menambahkan file ke staging area (siap untuk di-commit)
+4. git commit -m "pesan"    = Memberikan pesan di commit pada riwayat project
+5. git push                 = Mengirim file/perubahan project dari Repository lokal ke Repository remote/Github
+6. git pull                 = Mengambil file perubahan dari Repository remote/Github ke Repository lokal
+7. git clone [url]          = Menyalin (mengunduh) repository dari Github ke lokal
+8. git log                  = Melihat riwayat commit
+
 
 
 

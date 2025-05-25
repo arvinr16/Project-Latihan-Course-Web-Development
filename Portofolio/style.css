@@ -46,11 +46,37 @@ section {
 
 #moreInfoArrow {
   color: white;
+  font-size: 18px;
   background: linear-gradient(45deg, #ff4463, #f2b0fc);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#moreInfoArrow:hover {
+  color: white;
+  background: linear-gradient(45deg, red, blue);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .home .arrow img {
   width: 30px;
+}
+
+#arrow {
+  animation: 2s upDown infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(7px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }

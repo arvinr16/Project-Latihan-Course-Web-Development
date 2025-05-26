@@ -30,10 +30,16 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto"> <!-- ms-auto = untuk memberikan margin kiri otomatis yang berfungsi
+            <ul class="navbar-nav ms-auto">
+              <!-- ms-auto = untuk memberikan margin kiri otomatis yang berfungsi
                                                  untuk mendorong elemen ke kanan saat berada dalam kontainer flexbox. -->
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">About</a>
@@ -50,21 +56,87 @@
       </nav>
     </header>
     <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-            <div class="col-8">
-                <h3 class="fw-semibold">Hi! I am</h3>
-                <h1 class="fw-bold">FLUFYOS</h1> <!-- fw = Untuk memberikan font-weight atau ketebalan teks. -->
-                <p>I am Software Engineer Developer</p>
-                <a class="btn" href="images/gambarwebdevelopment.jpg" download>Resume</a>
-            </div>
-            <div class="col-4">
-                <img src="images/gambarOmbak.jpg" alt="gambarHome" style="height: 200px;">
-            </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-8">
+          <h3 class="fw-semibold">Hi! I am</h3>
+          <h1 class="fw-bold">FLUFYOS</h1>
+          <!-- fw = Untuk memberikan font-weight atau ketebalan teks. -->
+          <p>I am Software Engineer Developer</p>
+          <a class="btn" href="images/gambarwebdevelopment.jpg" download
+            >Resume</a
+          >
         </div>
-        <div class="arrow mt-5 d-flex align-items-center flex-column">
-          <a id="moreInfoArrow" class="text-decoration-none" href="#about">More Info</a>
-          <img id="arrow" class="mt-2" src="images/logoArrowHeadPointBottom.PNG" alt="arrowIcon">
+        <div class="col-4">
+          <img
+            src="images/gambarOmbak.jpg"
+            alt="gambarHome"
+            style="height: 200px"
+          />
         </div>
+      </div>
+      <div class="arrow mt-5 d-flex align-items-center flex-column">
+        <a id="moreInfoArrow" class="text-decoration-none" href="#about"
+          >More Info</a
+        >
+        <img
+          id="arrow"
+          class="mt-2"
+          src="images/logoArrowHeadPointBottom.PNG"
+          alt="arrowIcon"
+        />
+      </div>
+    </section>
+    <section id="about" class="about container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque!
+        Deserunt consequuntur hic doloremque assumenda. Dolor, laudantium
+        placeat numquam, repudiandae distinctio enim quo eaque modi, provident
+        ab nam illum alias.
+      </p>
+      <div class="about-exp">
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5>Software Engineer</h5>
+              <p>FLUFYOS Company (2025-now)</p>
+            </div>
+            <button class="btn button">More Info</button>
+          </div>
+          <p class="about-exp-item-detail d-none">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
+            voluptatum ducimus natus quis dolores velit magni dolor minus
+            deleniti saepe!
+          </p>
+        </div>
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5>Software Engineer</h5>
+              <p>FLUFYOS Company (2025-now)</p>
+            </div>
+            <button class="btn button">More Info</button>
+          </div>
+          <p class="about-exp-item-detail d-none">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
+            voluptatum ducimus natus quis dolores velit magni dolor minus
+            deleniti saepe!
+          </p>
+        </div>
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5>Software Engineer</h5>
+              <p>FLUFYOS Company (2025-now)</p>
+            </div>
+            <button class="btn button">More Info</button>
+          </div>
+          <p class="about-exp-item-detail d-none">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
+            voluptatum ducimus natus quis dolores velit magni dolor minus
+            deleniti saepe!
+          </p>
+        </div>
+      </div>
     </section>
 
     <script

@@ -68,7 +68,8 @@ section::before {
 
 .navbar {
     background-image: linear-gradient(-45deg, #1f69ea, #a33ed2, #f2b0fc, #ff4463);
-    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.15)
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar-toggler {
@@ -77,6 +78,10 @@ section::before {
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .home h1 {
@@ -132,6 +137,26 @@ section::before {
 .about-exp-item-detail {
   display: none;
 }
+
+
+@keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
+    0% {
+        filter: opacity(0);
+        transform: translateY(-20px);
+    }
+    35% {
+        filter: opacity(0.25);
+        transform: translateY(0);
+    }
+    70% {
+        filter: opacity(0.5);
+        transform: translateY(10px);
+    }
+    100% {
+        filter: opacity(1);
+        transform: translateY(0);
+    }
+  }
 
 @keyframes upDown {
   0% {

@@ -14,6 +14,11 @@ section::before {
   top: 10px;
 }
 
+/* img {
+  max-width: 100%;
+  width: auto;
+} */
+
 .btn, .btn-about {
   color: white;
   font-size: 14px;
@@ -138,6 +143,33 @@ section::before {
   display: none;
 }
 
+.work::before {
+  content: 'Work';
+}
+
+.work-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "work-1 work-2" "work-3 work-3";
+  gap: 7px;
+}
+
+.work-img img {
+  width: 100%;
+}
+
+#work-1 {
+  grid-area: work-1;
+}
+
+#work-2 {
+  grid-area: work-2;
+}
+
+#work-3 {
+  height: 300px;
+  grid-area: work-3;
+}
 
 @keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
     0% {

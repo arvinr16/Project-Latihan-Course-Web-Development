@@ -162,7 +162,7 @@ section::before {
   position: relative;
 }
 
-.work-img-item:hover::after {
+.work-img-item:after {
   content: '';
   width: 100%;
   height: 100%;
@@ -170,12 +170,18 @@ section::before {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   font-size: 24px;
+}
+
+.work-img-item:hover::after {
+  opacity: 1;
 }
 
 #work-1 {

@@ -152,6 +152,7 @@ section::before {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "work-1 work-2" "work-3 work-3";
   gap: 7px;
+  overflow: hidden;
 }
 
 .work-img img {
@@ -202,6 +203,11 @@ section::before {
 
 #work-3 {
   grid-area: work-3;
+}
+
+#work-3 > img {
+  height: 300px;
+  object-fit: cover;
 }
 
 #work-3:hover::after {

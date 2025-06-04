@@ -125,6 +125,10 @@ section::before {
   animation: 2s upDown infinite;
 }
 
+#about {
+  margin-top: 64px;
+}
+
 .about::before {
   content: 'About';
 }
@@ -142,6 +146,10 @@ section::before {
 
 .about-exp-item-detail {
   display: none;
+}
+
+#work {
+  margin-top: 64px;
 }
 
 .work::before {

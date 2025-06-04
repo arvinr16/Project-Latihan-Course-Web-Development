@@ -214,6 +214,34 @@ section::before {
   content: 'Mobile Application Project';
 }
 
+.contact::before {
+  content: 'Contact';
+}
+
+.row-item-in img {
+  height: 40px;
+}
+
+.row-item-in p {
+  padding-left: 10px
+}
+
+.row-item-em img {
+  height: 35px;
+}
+
+.row-item-em p {
+  padding-left: 10px;
+}
+
+.row-item-ig img {
+  height: 35px;
+}
+
+.row-item-ig p {
+  padding-left: 10px;
+}
+
 @keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
     0% {
         filter: opacity(0);

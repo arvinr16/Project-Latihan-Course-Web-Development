@@ -102,6 +102,10 @@ section::before {
   color: #676767;
 }
 
+.home div img {
+  width: 100%;
+}
+
 #moreInfoArrow {
   color: white;
   font-size: 18px;
@@ -231,25 +235,25 @@ section::before {
   height: 40px;
 }
 
-.row-item-in p {
+/* .row-item-in p {
   padding-left: 10px
-}
+} */
 
 .row-item-em img {
   height: 35px;
 }
 
-.row-item-em p {
+/* .row-item-em p {
   padding-left: 10px;
-}
+} */
 
 .row-item-ig img {
   height: 35px;
 }
 
-.row-item-ig p {
+/* .row-item-ig p {
   padding-left: 10px;
-}
+} */
 
 #contact {
   margin-top: 64px;

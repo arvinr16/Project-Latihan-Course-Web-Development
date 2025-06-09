@@ -284,6 +284,21 @@ section::before {
   font-weight: 700;
 }
 
+@media only screen and (max-width: 768px) {
+  .home div img {
+    width: 50%;
+  }
+
+  .home div h3 {
+    padding-top: 35px;
+  }
+
+  .btn-resume {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
     0% {
         filter: opacity(0);

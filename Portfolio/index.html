@@ -56,17 +56,19 @@
       </nav>
     </header>
     <section id="home" class="home container">
-      <div class="row d-flex align-items-center">
+      <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
         <div class="col-8">
           <h3 class="fw-semibold">Hi! I am</h3>
           <h1 class="fw-bold">FLUFYOS</h1>
           <!-- fw = Untuk memberikan font-weight atau ketebalan teks. -->
           <p>I am Software Engineer Developer</p>
-          <a class="btn" href="images/gambarwebdevelopment.jpg" download
+          <div class="btn-resume">
+            <a class="btn" href="images/gambarwebdevelopment.jpg" download
             >Resume</a
           >
+          </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
           <img src="images/gambarOmbak.jpg" alt="gambarHome"/>
         </div>
       </div>
@@ -166,7 +168,7 @@
     </section>
     <section id="contact" class="contact container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-lg-6">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
             ratione saepe perferendis. Quia facilis omnis esse blanditiis illum
@@ -190,7 +192,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-5">
           <form class="contact-form" onsubmit="onFormSubmit(event)">
             <div class="mb-3">
               <label for="inp_email" class="form-label">Email address</label>

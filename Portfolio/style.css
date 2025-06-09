@@ -103,6 +103,7 @@ section::before {
 }
 
 .home div img {
+  border-radius: 16%;
   width: 100%;
 }
 

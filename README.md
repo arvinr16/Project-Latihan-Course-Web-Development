@@ -4,4 +4,4 @@ Released under GNU GPL v3
 
 © 2025 ArviNR, arviansyahyk@gmail.com. 
 
-All rights reserved.
+See the ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg).

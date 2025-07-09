@@ -206,3 +206,17 @@ if(var10 > var9) {
 if(var10 > var9 && var10 < var11); {
     console.log("Benar var10 berada diantara di var9 dan var11");
 }
+
+// Contoh perulangan Standart
+console.log('');
+console.log('Perulangan Standart: ');
+for(i = 0; i <= 10; i++) {
+    console.log('Perulangan', i);
+}
+// Contoh perulangan jika menggunakan Array bertipe data String
+console.log('');
+console.log('Perulangan Menggunakan String: ');
+let hewan = ['kucing', 'kuda', 'sapi'];
+for(let item of hewan) {
+    console.log(item);
+}
